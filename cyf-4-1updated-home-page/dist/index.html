@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CYF 4.1 - Updated Home Page  </title>
+  <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlexKeyter.com</title>
+    
+    <!-- Google Fonts Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="c-site-header">
+        <div class="headerContent logoWithText">
+            <img class="logoWraps" src="https://alexkeyter.com/assets/MainLogo%20500px.png" alt="Logo">
+            <h1 id="pageTitle">AlexKeyter.com</h1>
+        </div>
+
+        <nav class="headerContent" aria-label="Main Site Links.">
+            <ul class="navGrid">               
+                    <li class="extraSpace"></li>
+                    <li class="menuButton"><a class="menuLink" href="#">Home</a></li>
+                    <li class="menuButton"><a class="menuLink" href="#">About</a></li>
+                    <li class="menuButton"><a class="menuLink" href="#">Contact</a></li>            
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div class="gridGap"></div>
+
+        <div class="banner">
+            <h2 id="welcomeMessage">Welcome to my Personal Homepage</h2>
+        </div>
+
+        <div class="gridGap"></div>
+        
+        <!-- personal profile Tile -->
+        <article class="personalProfile contentTiles">
+            <img id="profilePicture" src="https://pbs.twimg.com/profile_images/1405863205059141636/V7PiDd0y_400x400.jpg" alt="A picture of Alex Keyter in a smart white shirt"> 
+            <div class="bio">
+              <h3>About me</h3>
+                <p>My name is Alex Keyter and I work as a Teaching Assistant.
+                <br>My hobbies are learning languages, cooking and running.
+                <br><br>I am applying to &lt; Code &gt; Your Future because I
+                <br> want to start a career in Web Development.
+                <br><br> I am particularly interested in educational technology (EdTech).
+                <br><br>I dream of contributing to the design and development of the tools  <br> that will help to end educational innequality.</p>
+            </div>
+        </article>
+
+        <div class="gridGap"></div>
+
+        <div class="banner">
+            <h2 id="firstBanner">Recipe of the Week</h2>
+        </div>
+
+        <div class="gridGap"></div>
+
+        <article class="halfTiles">
+            <div class="leftTile contentTiles">
+                <h3 id="recipeOTW">Chicken Enchiladas</h3>
+                <p id="recipeIntro"> 
+                    My favourite dish that I cooked this week was inspired by this recipe for Chicken Enchiladas.
+                </p>
+            </div>
+            <div class="rightTile contentTiles tileCenter">
+                <div class="videoSection">
+                    <iframe src="https://www.youtube.com/embed/jRlTxTNRo1s" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+            </div>
+        </article>
+
+        <div class="gridGap"></div>
+
+        <div class="banner">
+            <h2 id="secondBanner">Latest Recipes</h2>
+        </div>
+
+        <div class="gridGap"></div>
+
+        <div class="fourColumnGrid contentTiles">
+            <article class="recipeSquare c1 tileCenter">
+              <h4>Example1</h4>
+            </article>
+            <article class="recipeSquare c2 tileCenter">
+              <h4>Example2</h4>
+            </article>
+            <article class="recipeSquare c3 tileCenter">
+              <h4>Example3</h4>
+            </article>
+            <article class="recipeSquare c4 tileCenter">
+              <h4>Example4</h4>
+            </article>
+        </div>
+
+        <div class="gridGap"></div>
+        
+
+        <div class="banner">
+            <h2 id="thirdBanner">Newsletter</h2>
+        </div>
+        
+        <div class="gridGap"></div>
+
+        <div class="signUp">
+            
+            <div class="newsContext tileCenter">
+                <h3>Sign up to my newsletter!</h3>
+                <p>Enjoy monthly recipes, <br>lifehacks and more!</p>
+            </div>
+
+            
+            <form class="emailSignUp tileCenter">
+                
+                <label id="fname-label" for="firstName">First Name:</label>
+                <br>
+                <input class="newsForm" type="text" id="firstName" placeholder="Enter your first name">
+                <br><br>
+
+                <label id="lname-label" for="lastName">Last Name:</label>
+                <br>
+                <input class="newsForm" type="text" id="lastName" placeholder="Enter your last name">
+                <br><br>
+
+                <label id="email-label" for="email">Email:</label>
+                <br>
+                <input class="newsForm" type="email" id="email" required placeholder="Enter your email">
+                <br><br>
+              
+                <input class="newsForm" type="submit" value="Sign Up!">
+            </form>
+         </div>         
+            <div class="gridGap"></div>
+    </main>
+
+    <footer class="c-site-footer">
+        <p class="footerText tileCenter">Copyright Alex Keyter	&copy;</p>
+    </footer>
+
+    <div class="gridGap"></div>
+
+</body>
+</html>
+
+<!-- Your test console.
+Don't delete!-->
+<aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto">
+</aside>
+<!-- partial -->
+  <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js'></script>
+<script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
