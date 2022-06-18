@@ -1,0 +1,200 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+body {
+    background-color: blanchedalmond;
+    font-family: 'Spartan', sans-serif;
+}
+
+header {
+    width: 95%;
+    height: 125px;
+    padding: 0 2.5%;
+    background-color: rgba(245, 250, 255, 0.5);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    }
+
+    .headerContent {
+        align-items: center;
+    }
+
+    .headerContent>ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logoWithText {
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+
+    .logoWraps {
+        width: 100%;
+        max-width: 125px;
+    }
+
+    .navGrid {
+        display: grid;
+        grid-template-columns: 40% auto auto auto;
+        grid-template-rows: 125px;
+        align-items: center;
+        justify-items: end;
+    }
+
+    .menuButton {
+        background-color: rgba(101, 107, 114, 0.1);
+        text-align: center;
+        align-self: center;
+        padding: 25px 1em;
+        border-radius: 15px;
+    }
+
+    .menuButton>a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .menuButton:hover{
+        background-color: rgba(61, 65, 70, 0.31);
+    }
+
+/* end of header CSS */
+
+main {
+    justify-content: center;
+    align-items: center;
+    }
+
+    .gridGap {
+        height: 30px;
+    }
+
+    .banner{
+        width: auto;
+        height: 100px;
+        padding: 0 10%;
+        background-color: rgba(245, 250, 255, 0.5);
+        border-radius: 15px;
+        
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+
+    .banner>h2 {
+        text-align: center;
+    }
+
+    .contentTiles{
+        width: auto;
+        height: auto;
+        background-color: rgba(245, 250, 255, 0.5);
+        border-radius: 15px;
+        text-align: center;
+    }
+
+
+    .personalProfile{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 400px;
+    }
+
+    .personalProfile>img {
+        width: auto;
+        max-height: 300px;
+        align-self: center;
+        justify-self: center;
+        border-radius: 50%;
+    }
+
+    .bio {
+        width: auto;
+        padding: 0 3%;
+        text-align: center;
+        line-height: 2;
+        font-size: 16px;
+    }
+
+   .halfTiles {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 350px;
+       column-gap: 50px;
+       }
+    
+    .tileCenter {
+        display: grid;
+        grid-template-rows: auto;
+        align-content: center;
+        background-color: rgba(245, 250, 255, 0.5);
+        border-radius: 15px;
+    }
+
+    .leftTile>p {
+        padding: 10%;
+    }
+
+    .recipeSquare {
+        height: 200px;
+        width: auto;
+    }
+
+    .fourColumnGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 2%;
+        background-color: inherit;
+    }
+
+    .signUp {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        column-gap: 2%;
+        background-color: inherit;
+    }
+
+    .newsContext {
+        text-align: center;
+        padding: 200px 0;
+    }
+
+    .newsForm {
+        padding: 20px;
+        height: 20px;
+        width: 80%;
+        justify-self: center;
+    }
+
+    .emailSignUp>label {
+        padding-left: 6%;
+    }
+
+
+footer {
+    width: 95%;
+    height: 125px;
+    padding: 0 2.5%;
+    background-color: rgba(245, 250, 255, 0.5);
+    border-radius: 15px;
+    display: grid;
+    }
+
+    footer>p {
+        text-align: center;
+    }
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
